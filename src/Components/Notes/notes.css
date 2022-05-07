@@ -1,0 +1,58 @@
+.note{
+    border: 1px solid rgb(170 170 170);
+    width: 21%;
+    margin: 10px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 10%), 0 4px 4px 0 rgb(0 0 0 / 15%), 0 2px 2px 0 rgb(0 0 0 / 60%);
+}
+.notess{
+    border: 1px solid rgb(170 170 170);
+    margin: 10px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 10%), 0 4px 4px 0 rgb(0 0 0 / 15%), 0 2px 2px 0 rgb(0 0 0 / 60%);
+   
+}
+.notesLinear{
+    border: 1px solid rgb(170 170 170);
+    margin: 10px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 10%), 0 4px 4px 0 rgb(0 0 0 / 15%), 0 2px 2px 0 rgb(0 0 0 / 60%);
+}
+.notess form,.notesLinear form{
+    padding: 8px 15px;
+}
+.note form input,.notess form input{
+    border: none;
+    outline:none;
+}
+.title{
+    padding: 10px;
+}
+.notessBody{
+    word-wrap: break-word;
+}
+.noteBody{
+    height: 0px;
+    padding: 0px 0px 0px 10px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+.note:hover .noteBody{
+    height: auto;
+    padding: 15px 10px 30px 10px;
+}
+.formatDiv{
+    margin-bottom: 15px;
+}
+.format  i{
+    font-size: 15px;
+}
+.addBtn{
+     border: none;
+     background-color: white;
+     font-size: 22px;
+}
+.addBtn i{
+    /* position: relative; */
+    float: right;
+}

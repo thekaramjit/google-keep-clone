@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #FFFA75;
+    /* height: 50px; */
+    padding: 10px;
+    box-shadow: 5px -4px 8px 10px #888888;
+}
+.nav img{
+    width: 4%;
+}
